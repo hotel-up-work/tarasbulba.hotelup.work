@@ -7,18 +7,18 @@
 <meta name="description" content="«Тарас Бульба» у Кам’янці-Подільському: номери, ресторан української кухні, SPA-зона, сауна, сніданок, безкоштовні Wi-Fi і парковка. Booking.com 9,5 з 10.">
 <meta name="theme-color" content="#7a2f34">
 <meta name="robots" content="index, follow">
-<link rel="canonical" href="https://tarasbulba.webart.work/">
+<link rel="canonical" href="https://tarasbulba.hotelup.work/">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%232e2621'/%3E%3Cpath d='M32 14c-10 4-18 12-18 24 0 4 2 8 5 10-1-6 2-12 7-15-1 5 1 9 6 11-1-6 3-11 9-13-2 5 0 9 4 11 2-2 4-6 4-10 0-12-8-20-17-18z' fill='%23c9a24a'/%3E%3C/svg%3E">
 <meta property="og:type" content="website"><meta property="og:locale" content="uk_UA">
 <meta property="og:title" content="Тарас Бульба: готель, ресторан і SPA у Кам’янці-Подільському">
 <meta property="og:description" content="Номери, українська кухня, SPA-зона та сауна на Старобульварній, 6. Booking.com 9,5 з 10.">
-<meta property="og:url" content="https://tarasbulba.webart.work/">
-<meta property="og:image" content="https://tarasbulba.webart.work/images/hero.jpg">
+<meta property="og:url" content="https://tarasbulba.hotelup.work/">
+<meta property="og:image" content="https://tarasbulba.hotelup.work/images/hero.jpg">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Тарас Бульба: готель, ресторан і SPA у Кам’янці-Подільському">
 <meta name="twitter:description" content="Номери, українська кухня, SPA-зона та сауна на Старобульварній, 6. Booking.com 9,5 з 10.">
-<meta name="twitter:image" content="https://tarasbulba.webart.work/images/hero.jpg">
-<script type="application/ld+json">[{"@context":"https://schema.org","@type":"Hotel","name":"Тарас Бульба","image":"https://tarasbulba.webart.work/images/hero.jpg","address":{"@type":"PostalAddress","streetAddress":"вул. Старобульварна, 6","addressLocality":"Кам’янець-Подільський","addressCountry":"UA"},"telephone":"+380673811554","url":"https://tarasbulba.webart.work/","amenityFeature":[{"@type":"LocationFeatureSpecification","name":"Free Wi-Fi","value":true},{"@type":"LocationFeatureSpecification","name":"Free parking","value":true},{"@type":"LocationFeatureSpecification","name":"Sauna","value":true},{"@type":"LocationFeatureSpecification","name":"24-hour front desk","value":true},{"@type":"LocationFeatureSpecification","name":"Breakfast","value":true},{"@type":"LocationFeatureSpecification","name":"Restaurant","value":true},{"@type":"LocationFeatureSpecification","name":"Bar","value":true},{"@type":"LocationFeatureSpecification","name":"Live music (on request)","value":true}],"aggregateRating":{"@type":"AggregateRating","ratingValue":"9.5","bestRating":"10","reviewCount":"1101"}},{"@context":"https://schema.org","@type":"Restaurant","name":"Тарас Бульба","servesCuisine":"Ukrainian","telephone":"+380673811554","address":{"@type":"PostalAddress","streetAddress":"вул. Старобульварна, 6","addressLocality":"Кам’янець-Подільський","addressCountry":"UA"},"url":"https://tarasbulba.webart.work/"}]</script>
+<meta name="twitter:image" content="https://tarasbulba.hotelup.work/images/hero.jpg">
+<script type="application/ld+json">[{"@context":"https://schema.org","@type":"Hotel","name":"Тарас Бульба","image":"https://tarasbulba.hotelup.work/images/hero.jpg","address":{"@type":"PostalAddress","streetAddress":"вул. Старобульварна, 6","addressLocality":"Кам’янець-Подільський","addressCountry":"UA"},"telephone":"+380673811554","url":"https://tarasbulba.hotelup.work/","amenityFeature":[{"@type":"LocationFeatureSpecification","name":"Free Wi-Fi","value":true},{"@type":"LocationFeatureSpecification","name":"Free parking","value":true},{"@type":"LocationFeatureSpecification","name":"Sauna","value":true},{"@type":"LocationFeatureSpecification","name":"24-hour front desk","value":true},{"@type":"LocationFeatureSpecification","name":"Breakfast","value":true},{"@type":"LocationFeatureSpecification","name":"Restaurant","value":true},{"@type":"LocationFeatureSpecification","name":"Bar","value":true},{"@type":"LocationFeatureSpecification","name":"Live music (on request)","value":true}],"aggregateRating":{"@type":"AggregateRating","ratingValue":"9.5","bestRating":"10","reviewCount":"1101"}},{"@context":"https://schema.org","@type":"Restaurant","name":"Тарас Бульба","servesCuisine":"Ukrainian","telephone":"+380673811554","address":{"@type":"PostalAddress","streetAddress":"вул. Старобульварна, 6","addressLocality":"Кам’янець-Подільський","addressCountry":"UA"},"url":"https://tarasbulba.hotelup.work/"}]</script>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Prata&family=Commissioner:wght@400;500;700&display=swap" rel="stylesheet">
 <style>
@@ -118,7 +118,7 @@ html.js .reveal{opacity:0;transform:translateY(24px);transition:opacity .8s cubi
 //   roomType, date, time, service; a [data-genders] box renders one select per guest (hostels);
 // - errors go to [data-error-for="<name>"], the result to [data-status]; `website` is a honeypot.
 const HOTEL_ID = 'kp-tarasbulba'; // Firestore hotels/{id}: 'kp-' + site folder name
-const SITE = 'https://tarasbulba.webart.work/'; // from the site's CNAME
+const SITE = 'https://tarasbulba.hotelup.work/'; // from the site's CNAME
 const PHONE = '+38 067 381 15 54'; // shown when sending fails
 
 const FIREBASE = {
